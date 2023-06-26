@@ -1,0 +1,19 @@
+pkgbase = libsodium-git
+	pkgdesc = A modern, portable, easy to use crypto library
+	pkgver = 1.0.18.r585.g6187ebc1
+	pkgrel = 1
+	url = https://libsodium.org/
+	arch = i686
+	arch = x86_64
+	license = custom:ISC
+	makedepends = libtool
+	makedepends = autoconf
+	makedepends = automake
+	makedepends = git
+	provides = libsodium=1.0.18.r585.g6187ebc1
+	conflicts = libsodium
+	options = staticlibs
+	source = git+https://github.com/jedisct1/libsodium.git
+	sha256sums = SKIP
+
+pkgname = libsodium-git
